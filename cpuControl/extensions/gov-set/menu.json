@@ -1,0 +1,51 @@
+{
+	"comment001": "governor setting, inspired by battery-status, by NiLuJe",
+	"items": [
+	{
+		"name": "CPU Control",
+		"priority": -997,
+		"items": [
+		{
+			"name": "CPU Report",
+			"priority": -4,
+			"exitmenu": true,
+			"date": false,
+			"checked": false,
+			"refresh": true,
+			"action": "exec",
+			"params": "./bin/cpuReport.lua"
+		},
+		{
+			"name": "Set: 'ondemand' (default)",
+			"priority": -3,
+			"exitmenu": true,
+			"date": false,
+			"checked": false,
+			"refresh": true,
+			"action": "./bin/set-governor.sh",
+			"params": "ondemand"
+		},
+		{
+			"name": "Set: 'powersave'",
+			"priority": -2,
+			"exitmenu": true,
+			"date": false,
+			"checked": false,
+			"refresh": true,
+			"action": "./bin/set-governor.sh",
+			"params": "powersave"
+		},
+		{
+			"name": "Set 'performance'",
+			"priority": -1,
+			"exitmenu": true,
+			"date": false,
+			"checked": false,
+			"refresh": true,
+			"action": "./bin/set-governor.sh",
+			"params": "performance"
+		}
+		]
+	}
+	]
+}
