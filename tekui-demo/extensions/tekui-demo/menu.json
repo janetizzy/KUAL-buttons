@@ -1,0 +1,74 @@
+{
+	"comment001": "packaged by piika",
+	"items": [
+	{
+		"name": "tekUI Demo",
+		"priority": -20,
+		"items": [
+		{
+			"name": "animations",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_animations.lua"
+		},
+		{
+			"name": "borders",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_borders.lua"
+		},
+		{
+			"name": "buttons",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_buttons.lua"
+		},
+		{
+			"name": "choices",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_choices.lua"
+		},
+		{
+			"name": "floattext",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_floattext.lua"
+		},
+		{
+			"name": "layout",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_layout.lua"
+		},
+		{
+			"name": "popups",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_popups.lua"
+		},
+		{
+			"name": "presentation",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_presentation.lua"
+		},
+		{
+			"name": "slider",
+			"priority": -4,
+			"exitmenu": false,
+			"action": "./piika_demo.lua",
+			"params": "demo_slider.lua"
+		}
+		]
+	}
+	]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+	<information>
+		<name>tekUI Demo</name>
+		<version>1.12</version>
+		<author>"PIIKA" of Mobileread.com</author>
+		<id>tekUI-Demo</id>
+	</information>
+	<menus>
+		<menu type="json" dynamic="true">menu.json</menu>
+	</menus>
+</extension>
